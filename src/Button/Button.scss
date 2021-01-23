@@ -1,0 +1,40 @@
+.base-button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.btn-primary {
+    background-color: aquamarine;
+}
+
+.btn-info {
+    background-color: aqua;
+}
+
+.btn-size {
+    &-small {
+        width: 100px;
+        height: 50px;
+    }
+    &-middle {
+        width: 100px;
+        height: 50px;
+    }
+    &-large {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+.btn-radius{
+    &-half{
+        border-radius: 10px;
+    }
+    &-round{
+        border-radius: 50%;
+    }
+    &-rect{
+        border-radius: 0;
+    }
+}
